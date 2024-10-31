@@ -42,6 +42,9 @@ npm start
 The application is currently deployed at:
 - Frontend: https://kafka-table.web.app
 
+Call the API in orderkafka repo to produce logs:
+- Repo: https://github.com/tl27863/orderkafka
+
 ## Technology Stack
 
 ### Backend
