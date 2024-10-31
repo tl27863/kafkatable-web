@@ -13,7 +13,7 @@ Web application that displays Kafka messages in table format with syntax highlig
 ### Backend
 
 1. Create a `.env` file in the backend directory with the following variables:
-```
+```env
 CLIENT=your_client_id
 HOST=your_kafka_host
 CF_USERNAME=your_username
