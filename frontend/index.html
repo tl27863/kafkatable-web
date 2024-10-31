@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Kafka Real-time Table</title>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/atom-one-dark.min.css"
+        />
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <div class="container">
+            <h1>Kafka Real-time Data</h1>
+            <div class="table-container">
+                <table id="kafka-table">
+                    <thead>
+                        <tr>
+                            <th>Timestamp</th>
+                            <th>Data</th>
+                        </tr>
+                    </thead>
+                    <tbody id="kafka-table-body"></tbody>
+                </table>
+            </div>
+            <div class="pagination">
+                <button id="prevPage" disabled>Previous</button>
+                <span class="page-info"
+                    >Page <span id="currentPage">1</span> of
+                    <span id="totalPages">1</span></span
+                >
+                <button id="nextPage" disabled>Next</button>
+            </div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/json.min.js"></script>
+        <script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
